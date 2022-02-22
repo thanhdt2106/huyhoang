@@ -1,0 +1,66 @@
+.col-25{
+    width: 20%;
+    float: left;
+}
+.col-25>a{
+    text-decoration: none;
+}
+.col-25:hover{
+    box-shadow: 0 0 2px orange;
+    
+
+}
+.prod{
+    border-radius: 1px;
+    box-shadow: 0 0 2px burlywood;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+    border: 0px solid black;
+}
+.name{
+    font-variant: normal ;
+    font-size: 20px ;
+    text-decoration: none;
+    color: black;
+
+}
+.name:hover{
+    color: blue;
+}
+.name>a{
+    font-variant: normal ;
+    font-size: 30px ;
+    color: red;
+    text-decoration: none;
+}
+.image{
+    max-width: 200%;
+    height: 170px;
+    margin-bottom: 10px;
+
+}
+.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-variant: small-caps;
+    font-size: 15px;
+    color: blue;
+   
+}
+.icons:hover{
+    box-shadow: 0 0 2px blue;
+}
+.icons{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 25px;
+}
+.new-icons{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
